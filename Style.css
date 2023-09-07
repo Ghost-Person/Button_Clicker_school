@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+
+.wrapper {
+    width: 1000px;
+    margin: 0px auto;
+    
+}
+
+.nav {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 25px;
+}
+
+
+.nav input[type=text] {
+    height: 40px;
+    width: 400px;
+    font-size: 17px;
+}
+
+.b_login {
+    font-size: 1.2rem;
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+    background-color: rgb(80, 96, 202);
+}
+
+
+.second_wrap {
+    display: flex;
+
+}
+
+.ninja_box_wrap {
+    flex: 2;
+}
+
+.ninja_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.inner_left {
+    flex: 1;
+    text-align: center;
+}
+
+.inner_left p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    
+}
+
+.definition {
+    flex: 3;
+    margin-left: 20px;
+    font-size: 1.4rem;
+    
+}
+
+.definition_wrap {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.def_box {
+    flex: 1;
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid #999;
+}
+
+.def_box h2 {
+    font-size: 1.7rem;
+
+}
+
+.like1 {
+    font-size: 1.2rem;
+    color: black;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+    background-color: rgb(238, 174, 56);
+}
+
+.like2 {
+    font-size: 1.2rem;
+    color: black;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+    background-color: rgb(238, 174, 56);
+}
+
+.add {
+    font-size: 1.2rem;
+    color: black;
+    padding: 5px 15px;
+    box-shadow: 4px 4px #000;
+    background-color: rgb(86, 158, 86);
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
